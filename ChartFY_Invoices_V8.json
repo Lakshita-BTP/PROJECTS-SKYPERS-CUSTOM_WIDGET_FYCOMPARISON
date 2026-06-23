@@ -1,0 +1,35 @@
+{
+  "id": "com.max.fycomparison",
+  "version": "1.0.0",
+  "name": "FY Comparison Chart",
+  "newInstancePrefix": "FYComparison",
+  "vendor": "MAX",
+  "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij48cmVjdCB4PSI4IiB5PSIzMCIgd2lkdGg9IjgiIGhlaWdodD0iMjAiIGZpbGw9IiMxYjJhNDEiLz48cmVjdCB4PSIxOCIgeT0iMjIiIHdpZHRoPSI4IiBoZWlnaHQ9IjI4IiBmaWxsPSIjZTY3ODJkIi8+PHJlY3QgeD0iMzAiIHk9IjIwIiB3aWR0aD0iOCIgaGVpZ2h0PSIzMCIgZmlsbD0iIzFiMmE0MSIvPjxyZWN0IHg9IjQwIiB5PSIxNCIgd2lkdGg9IjgiIGhlaWdodD0iMzYiIGZpbGw9IiNlNjc4MmQiLz48cmVjdCB4PSI1MiIgeT0iMjYiIHdpZHRoPSI4IiBoZWlnaHQ9IjI0IiBmaWxsPSIjMWIyYTQxIi8+PC9zdmc+",
+  "webcomponents": [
+    {
+      "kind": "main",
+      "tag": "com-max-fycomparison",
+      "url": "https://cdn.jsdelivr.net/gh/Lakshita-BTP/PROJECTS-SKYPERS-CUSTOM_WIDGET_FYCOMPARISON@main/ChartFY_Invoices_V8.js",
+      "integrity": "sha384-ecbxv7QXTo9wo24UtBNHeDAN/DnSIBqk685YsXGiK46paO10EbHOJWmArcxpotqY"
+    }
+  ],
+  "dataBindings": {
+    "myDataBinding": {
+      "feeds": [
+        {
+          "id": "dimensions",
+          "type": "dimension",
+          "description": "Financial Year"
+        },
+        {
+          "id": "measures",
+          "type": "mainStructureMember",
+          "description": "Invoiced and Collected"
+        }
+      ]
+    }
+  },
+  "properties": {},
+  "methods": {},
+  "events": {}
+}
